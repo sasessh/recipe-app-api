@@ -1,7 +1,7 @@
 FROM python:3.9-alpine3.13
 LABEL maintainer="sases.pl"
 
-ENV PYTHONUNBUFERRED 1
+ENV PYTHONUNBUFFERED 1
 
 COPY ./requrements.txt /tmp/requrements.txt
 COPY ./requrements.dev.txt /tmp/requrements.dev.txt
